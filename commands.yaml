@@ -1,0 +1,23 @@
+get_time_date:
+  - what time is it
+  - tell me the time
+  - time
+  - what's the time
+  - current time
+  - what is the time
+  - tell me today's date
+  - what is today's date
+  - date
+  - what day is it
+get_battery_status:
+  - battery
+  - battery status
+  - how much battery is left
+  - check battery
+  - remaining battery
+system_status:
+  - system status
+  - status
+  - how is my pc
+  - check system
+  - memory usage

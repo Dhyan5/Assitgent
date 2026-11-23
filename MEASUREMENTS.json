@@ -1,0 +1,12 @@
+﻿{
+  "python": "3.12.10",
+  "sample_count": 50,
+  "stage_a_with_policy_audit_ms_median": 31.198299999232404,
+  "stage_a_with_policy_audit_ms_max": 64.81050000002142,
+  "project_bytes_excluding_test_artifacts": 311884,
+  "model_ram_and_latency": "NOT MEASURED: no verified local model",
+  "voice_latency": "NOT MEASURED: native voice stack not provisioned",
+  "full_install_size": "NOT MEASURED: no venv or model installed",
+  "working_set_bytes": 27877376,
+  "peak_working_set_bytes": 27877376
+}

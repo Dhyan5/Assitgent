@@ -1,0 +1,111 @@
+﻿{
+  "python": "3.12.10",
+  "executable": "C:\\Users\\Dhyan\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "dedicated_venv": false,
+  "hashed_lock_present": false,
+  "profile": "ULTRA-LITE",
+  "packages": {
+    "PyYAML": {
+      "expected": "6.0.4",
+      "installed": "6.0.3",
+      "matches": false
+    },
+    "jsonschema": {
+      "expected": "4.26.0",
+      "installed": "4.26.0",
+      "matches": true
+    },
+    "RapidFuzz": {
+      "expected": "3.14.6",
+      "installed": null,
+      "matches": false
+    },
+    "psutil": {
+      "expected": "7.2.2",
+      "installed": null,
+      "matches": false
+    },
+    "llama-cpp-python": {
+      "expected": "0.3.37",
+      "installed": null,
+      "matches": false
+    },
+    "pynput": {
+      "expected": "1.8.2",
+      "installed": null,
+      "matches": false
+    },
+    "sounddevice": {
+      "expected": "0.5.6",
+      "installed": "0.5.6",
+      "matches": true
+    },
+    "numpy": {
+      "expected": "2.5.5",
+      "installed": "2.4.6",
+      "matches": false
+    },
+    "webrtcvad-wheels": {
+      "expected": "2.0.14.post1",
+      "installed": null,
+      "matches": false
+    },
+    "pywhispercpp": {
+      "expected": "1.5.1",
+      "installed": null,
+      "matches": false
+    },
+    "piper-tts": {
+      "expected": "1.8.0",
+      "installed": null,
+      "matches": false
+    },
+    "onnxruntime": {
+      "expected": "1.32.0",
+      "installed": "1.30.0",
+      "matches": false
+    },
+    "pyttsx3": {
+      "expected": "2.99",
+      "installed": null,
+      "matches": false
+    },
+    "pycaw": {
+      "expected": "20260927",
+      "installed": null,
+      "matches": false
+    },
+    "screen-brightness-control": {
+      "expected": "0.27.2",
+      "installed": null,
+      "matches": false
+    },
+    "pywin32": {
+      "expected": "312",
+      "installed": null,
+      "matches": false
+    },
+    "pystray": {
+      "expected": "0.19.5",
+      "installed": null,
+      "matches": false
+    },
+    "Pillow": {
+      "expected": "13.0.0",
+      "installed": "12.2.0",
+      "matches": false
+    }
+  },
+  "models": {
+    "model": "Model missing or exceeds the disk allowance.",
+    "stt": "Model missing or exceeds the disk allowance.",
+    "tts": "Model missing or exceeds the disk allowance."
+  },
+  "online_enabled": false,
+  "production_ready": false,
+  "blockers": [
+    "OS setup and real voice/model validation pending",
+    "Outbound self-test exception and implementation unresolved",
+    "Native stack and model footprint must fit the hard profile budget"
+  ]
+}

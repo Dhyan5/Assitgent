@@ -1,0 +1,59 @@
+profile: ULTRA-LITE
+honorific: sir
+dry_run: true
+max_calls_per_minute: 20
+failure_limit: 5
+confirmation_seconds: 8
+approved_folder: ~/AssistantFiles
+apps: {}
+input_control: false
+online_enabled: false
+log_dir: ~/AssistantFiles/logs
+memory_chars: 2400
+idle_exit_seconds: 300
+model_idle_seconds: 60
+conversation_seconds: 30
+conversation_on_battery: false
+stt_confidence: 0.80
+tool_deadline_seconds: 5
+security:
+  account: JarvisLocal
+  protected_home: C:/Users/Dhyan
+  network_probe_exception: true
+hotkeys:
+  push_to_talk: <ctrl>+<alt>+j
+  conversation: <ctrl>+<alt>+k
+  stop: <ctrl>+<alt>+s
+  quit: <ctrl>+<alt>+q
+stt:
+  path: models/ggml-tiny.en-q5_1.bin
+  sha256: c77c5766f1cef09b6b7d47f21b546cbddd4157886b3b5d6d4f709e91e66c7c2b
+  threads: 1
+  max_bytes: 40000000
+tts:
+  backend: system
+  voice: Microsoft David Desktop
+  path: models/en_GB-alan-low.onnx
+  sha256: a1f60584620a2bed203de823d08f5abb336fb15f3d6f33f8c341e3e2cabf5dde
+  max_bytes: 80000000
+  config_path: models/en_GB-alan-low.onnx.json
+  config_sha256: null
+browser:
+  enabled: false
+  input_control: false
+  path: C:/Program Files/Google/Chrome/Application/chrome.exe
+  sha256: null
+  hosts: [www.wikipedia.org, en.wikipedia.org]
+  search_url: https://en.wikipedia.org/w/index.php?search=
+  seconds: 900
+optional:
+  speaker_verification: false
+  wake_word: false
+  long_term_memory: false
+model:
+  path: models/qwen2.5-0.5b-instruct-q4_k_m.gguf
+  sha256: 74a4da8c9fdbcd15bd1f6d01d621410d31c6fc00986f5eb687824e7b93d7a9db
+  context: 1024
+  max_tokens: 96
+  threads: 1
+  max_bytes: 500000000
